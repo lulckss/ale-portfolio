@@ -27,7 +27,7 @@ module.exports = {
         primary: '#1c1c22',
         accent: {
           DEFAULT: '#561db8',
-          hover: '#015391'
+          hover: '#441694'
       },
     },
       keyframes: {
@@ -46,5 +46,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require(
+    "tailwindcss-animate"),
+    ('tailwind-clip-path')],
+  
 }
