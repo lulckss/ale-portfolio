@@ -10,7 +10,7 @@ const Photo = () => {
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          transition: { delay: 2, duration: 0.4, ease: "easeIn" },
+          transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
         }}
       >
         {/* imagem */}
@@ -18,17 +18,17 @@ const Photo = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
+            transition: { delay: 0.2, duration: 0.3, ease: "easeInOut" },
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]
-        mix-blend-lighten absolute"
+        mix-blend-lighten absolute ml-4"
         >
           <Image
-            src="/assets/Foto.png"
+            src="/Foto3.png"
             priority
             quality={100}
             fill
-            alt=""
+            alt="Alessandro Lucas"
             className="object-contain"
           />
         </motion.div>

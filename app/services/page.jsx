@@ -6,32 +6,33 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Desenvolvimento Web",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit Donec lorem.",
+      "Utilizo as mais recentes tecnologias como Next.js, React, e Tailwind CSS para construir projetos, que são rápidos e otimizados para SEO.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Criação de Landing Pages",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit Donec lorem.",
+      "Desenvolvimento de páginas de alta conversão, responsivas e otimizadas para SEO, a partir de designs fornecidos (ex: Figma).",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Criação de E-commerces",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit Donec lorem.",
+      "Personalização de lojas online com recursos como filtros de produtos, banners dinâmicos e mais.",
     href: "",
   },
   {
     num: "04",
-    title: "SED",
+    title: "Otimização de Sites",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit Donec lorem.",
+      "Ajustes em sites já existentes, tornando-os mais rápidos, eficientes e acessíveis.",
     href: "",
   },
+  
 ];
 
 import { motion } from "framer-motion";
@@ -44,7 +45,7 @@ const Services = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+            transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >

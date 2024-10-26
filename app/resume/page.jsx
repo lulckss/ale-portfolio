@@ -13,11 +13,11 @@ import { SiTailwindcss, SiNextdotjs, SiJquery } from "react-icons/si";
 
 // about data
 const about = {
-  title: "About Me",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing Donec ut ex",
+  title: "Sobre mim",
+  description: "Sou Alessandro Lucas, desenvolvedor front-end apaixonado por criar experiências web dinâmicas e eficientes. Com base em HTML5, CSS3 e JavaScript, além de conhecimento em frameworks modernos como React e Next.js, estou sempre buscando novos desafios que testem minha criatividade e habilidades técnicas.",
   info: [
     {
-      fieldName: "Name",
+      fieldName: "Nome",
       fieldValue: "Alessandro Lucas",
     },
     {
@@ -25,8 +25,8 @@ const about = {
       fieldValue: "+55 (21) 96487-0832",
     },
     {
-      fieldName: "Experiencia",
-      fieldValue: "+/- 1 Ano",
+      fieldName: "Experiência",
+      fieldValue: "1 Ano",
     },
     {
       fieldName: "Email",
@@ -47,12 +47,12 @@ const about = {
 const experience = {
   icon: "../../public/assets/resume/badge.svg",
   title: "Experiência",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing Donec ut ex",
+  description: "No caminho do desenvolvimento front-end, venho criando soluções web modernas e funcionais, sempre focado em proporcionar uma excelente experiência de usuário. Utilizando tecnologias como Next.js, React, e Tailwind CSS, desenvolvi diversos projetos, desde landing pages responsivas até plataformas de e-commerce dinâmicas.",
   items: [
     {
       company: "FreeLancer",
       position: "Desenvolvedor Front-End",
-      duration: "2023 - Present",
+      duration: "2023 - Até o momento",
     },
   ],
 };
@@ -61,7 +61,7 @@ const experience = {
 const education = {
   icon: "../../public/assets/resume/cap.svg",
   title: "Formação",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing Donec ut ex",
+  description: "Ao longo da minha trajetória como desenvolvedor, me dediquei a aprimorar minhas habilidades e conhecimentos em tecnologias web. Minha formação inclui tanto estudos autodidatas quanto cursos especializados que me prepararam para enfrentar desafios no desenvolvimento front-end.",
   items: [
     {
       institution: "Faculdade - Estácio de Sá",
@@ -73,21 +73,36 @@ const education = {
       degree: "Certificado - Responsive Web Design",
       duration: "2024",
     },
+    {
+      institution: "IFRS",
+      degree: "Certificado - JavaScript",
+      duration: "2024",
+    },
+    {
+      institution: "IFRS",
+      degree: "Certificado - Programador Web",
+      duration: "2024",
+    },
+    {
+      institution: "DIO",
+      degree: "Certificado - Versionamento de Código com Git e GitHub",
+      duration: "2024",
+    },
   ],
 };
 
 // skill data
 const skills = {
   title: "Minhas habilidades",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing Donec ut ex",
+  description: "Possuo um conjunto diversificado de habilidades em desenvolvimento web, o que me permite criar soluções eficazes e modernas. Abaixo estão as tecnologias e ferramentas nas quais utilizo:",
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "Html 5",
+      name: "HTML5",
     },
     {
       icon: <FaCss3 />,
-      name: "Css 3",
+      name: "CSS3",
     },
     {
       icon: <FaJs />,
@@ -107,7 +122,7 @@ const skills = {
     },
     {
       icon: <SiTailwindcss />,
-      name: "Tailwindcss",
+      name: "TailwindCSS",
     },
     {
       icon: <SiNextdotjs />,
@@ -138,7 +153,7 @@ const Resume = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+        transition: { delay: 0.6, duration: 0.4, ease: "easeIn" },
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
@@ -151,10 +166,10 @@ const Resume = () => {
             className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0
           gap-6"
           >
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
+            <TabsTrigger value="experience">Experiência</TabsTrigger>
+            <TabsTrigger value="education">Educação</TabsTrigger>
+            <TabsTrigger value="skills">Habilidades</TabsTrigger>
+            <TabsTrigger value="about">Sobre</TabsTrigger>
           </TabsList>
 
           {/* content */}

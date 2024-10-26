@@ -12,12 +12,12 @@ import Stats from "./pages/Stats";
 const Home = () => {
   const handleDownloadCV = () => {
     // Caminho direto para o arquivo PDF na pasta public
-    const pdfUrl = "/assets/Pdf/PDF-teste.pdf"; // Certifique-se de que o arquivo está no diretório correto
+    const pdfUrl = "/assets/Pdf/Alessandro___curriculo.pdf"; // Certifique-se de que o arquivo está no diretório correto
   
     // Criar um link invisível e simular o clique para download
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "teste.pdf"; // Nome do arquivo que será baixado
+    link.download = "Alessandro-CV.pdf"; // Nome do arquivo que será baixado
     document.body.appendChild(link); // Adiciona o link ao DOM
     link.click(); // Simula o clique no link
     document.body.removeChild(link); // Remove o link do DOM após o clique
