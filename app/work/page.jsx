@@ -66,8 +66,8 @@ const projects = [
       { name: "ShadCN UI" },
     ],
     image: "/assets/work/home - portfolio.png",
-    live: "",
-    github: "",
+    live: "https://ale-portfolio-chi.vercel.app/",
+    github: "https://github.com/lulckss/ale-portfolio",
   },
   {
     num: "05",
