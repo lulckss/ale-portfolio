@@ -85,7 +85,7 @@ const projects = [
     category: "Calculadora - IMC",
     title: "Calculadora - IMC",
     description:
-      "Este é um aplicativo de previsão do tempo desenvolvido com JavaScript, HTML e CSS. Utilizando a API OpenWeather, ele fornece informações meteorológicas precisas em tempo real, como temperatura, umidade, velocidade do vento e condições climáticas para qualquer localidade desejada. Com um design moderno e intuitivo, a interface facilita a navegação e a consulta rápida do clima atual e da previsão dos próximos dias.",
+      "Este projeto é uma calculadora de IMC prática e interativa, desenvolvida para ajudar os usuários a avaliarem sua faixa de peso em relação à altura. Inserindo os valores de peso e altura, a calculadora realiza o cálculo do IMC automaticamente e classifica o resultado com base em categorias como peso saudável, sobrepeso e obesidade. Projetada com foco em simplicidade e usabilidade, a interface facilita a navegação e compreensão dos resultados, tornando-a uma ferramenta útil para quem deseja monitorar sua saúde.",
     stack: [{ name: "React" }, { name: "Tailwind CSS" }],
     image: "/assets/work/calculadora IMC.png",
     live: "https://calculadora-imc-alessandro-lucas-projects.vercel.app/",
