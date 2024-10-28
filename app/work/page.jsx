@@ -27,7 +27,7 @@ const projects = [
     description:
       "Este projeto de e-commerce foi desenvolvido com as tecnologias mais modernas do mercado, como Next.js, React, Tailwind CSS e SwiperJS, para criar uma loja virtual, rápida e responsiva",
     stack: [{ name: "Next.JS" }, { name: "React" }, { name: "Tailwind CSS" }],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/e-commerce - home.png",
     live: "https://e-commerce-alessandro-lucas-projects.vercel.app/",
     github: "https://github.com/lulckss/E-commerce",
   },
@@ -37,8 +37,8 @@ const projects = [
     title: "Rpg - Dragon Fight",
     description:
       "RPG Dragon Fight é um jogo de RPG simples e envolvente, desenvolvido usando HTML, CSS e JavaScript, onde o jogador embarca em batalhas épicas contra dragões em um mundo fictício. Este projeto foi criado com o objetivo de explorar as mecânicas básicas de um jogo de RPG, como pontos de vida, ataques, defesas e estratégias de batalha, proporcionando uma experiência divertida e interativa para os jogadores.",
-    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb2.png",
+    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
+    image: "/assets/work/rpg - home.png",
     live: "https://rpg-dragon-fight-alessandro-lucas-projects.vercel.app/",
     github: "https://github.com/lulckss/RPG---Dragon-Fight",
   },
@@ -48,8 +48,8 @@ const projects = [
     title: "Music Player",
     description:
       "O Music Player é um projeto simples e intuitivo desenvolvido com HTML, CSS e JavaScript, que permite ao usuário reproduzir músicas de uma forma dinâmica e interativa. Criado com o objetivo de explorar as funcionalidades básicas de um player de áudio na web, o projeto conta com recursos como controle de volume, navegação entre faixas, e funções de pausa, reprodução aleatória e repetição.",
-    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb3.png",
+    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
+    image: "/assets/work/music player - projeto.png",
     live: "https://music-player-alessandro-lucas-projects.vercel.app/",
     github: "https://github.com/lulckss/Music-Player",
   },
@@ -65,9 +65,31 @@ const projects = [
       { name: "Tailwind CSS" },
       { name: "ShadCN UI" },
     ],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/home - portfolio.png",
     live: "",
     github: "",
+  },
+  {
+    num: "05",
+    category: "Weather - App",
+    title: "Weather - App",
+    description:
+      "Este é um aplicativo de previsão do tempo desenvolvido com JavaScript, HTML e CSS. Utilizando a API OpenWeather, ele fornece informações meteorológicas precisas em tempo real, como temperatura, umidade, velocidade do vento e condições climáticas para qualquer localidade desejada. Com um design moderno e intuitivo, a interface facilita a navegação e a consulta rápida do clima atual e da previsão dos próximos dias.",
+    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }],
+    image: "/assets/work/weatherapp.png",
+    live: "https://weather-app-opal-five-54.vercel.app/",
+    github: "https://github.com/lulckss/weather-app",
+  },
+  {
+    num: "06",
+    category: "Calculadora - IMC",
+    title: "Calculadora - IMC",
+    description:
+      "Este é um aplicativo de previsão do tempo desenvolvido com JavaScript, HTML e CSS. Utilizando a API OpenWeather, ele fornece informações meteorológicas precisas em tempo real, como temperatura, umidade, velocidade do vento e condições climáticas para qualquer localidade desejada. Com um design moderno e intuitivo, a interface facilita a navegação e a consulta rápida do clima atual e da previsão dos próximos dias.",
+    stack: [{ name: "React" }, { name: "Tailwind CSS" }],
+    image: "/assets/work/calculadora IMC.png",
+    live: "https://calculadora-imc-alessandro-lucas-projects.vercel.app/",
+    github: "https://github.com/lulckss/calculadora-imc",
   },
 ];
 
