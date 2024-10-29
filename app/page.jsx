@@ -12,7 +12,7 @@ import Stats from "./pages/Stats";
 const Home = () => {
   const handleDownloadCV = () => {
     // Caminho direto para o arquivo PDF na pasta public
-    const pdfUrl = "/assets/Pdf/Alessandro___curriculo.pdf"; // Certifique-se de que o arquivo está no diretório correto
+    const pdfUrl = "/assets/Pdf/Alessandro_curriculo.pdf"; // Certifique-se de que o arquivo está no diretório correto
   
     // Criar um link invisível e simular o clique para download
     const link = document.createElement("a");
