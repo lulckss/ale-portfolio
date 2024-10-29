@@ -85,7 +85,7 @@ const education = {
     },
     {
       institution: "DIO",
-      degree: "Certificado - Versionamento de Código com Git e GitHub",
+      degree: "Versionamento de Código com Git e GitHub",
       duration: "2024",
     },
   ],
