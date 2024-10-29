@@ -17,27 +17,27 @@ const about = {
   description: "Sou Alessandro Lucas, desenvolvedor front-end apaixonado por criar experiências web dinâmicas e eficientes. Com base em HTML5, CSS3 e JavaScript, além de conhecimento em frameworks modernos como React e Next.js, estou sempre buscando novos desafios que testem minha criatividade e habilidades técnicas.",
   info: [
     {
-      fieldName: "Nome",
+      fieldName: "Nome:",
       fieldValue: "Alessandro Lucas",
     },
     {
-      fieldName: "Telefone",
+      fieldName: "Telefone:",
       fieldValue: "+55 (21) 96487-0832",
     },
     {
-      fieldName: "Experiência",
-      fieldValue: "1 Ano",
+      fieldName: "Experiência:",
+      fieldValue: "10 Meses",
     },
     {
-      fieldName: "Email",
+      fieldName: "Email:",
       fieldValue: "alessandrolucass22@gmail.com",
     },
     {
-      fieldName: "FreeLancer",
+      fieldName: "FreeLancer:",
       fieldValue: "Disponivel",
     },
     {
-      fieldName: "Idiomas",
+      fieldName: "Idiomas:",
       fieldValue: "Português, Inglês - basico",
     },
   ],
@@ -52,7 +52,7 @@ const experience = {
     {
       company: "FreeLancer",
       position: "Desenvolvedor Front-End",
-      duration: "2023 - Até o momento",
+      duration: "Jan 2024 - Até o momento",
     },
   ],
 };

@@ -39,8 +39,9 @@ const Home = () => {
               <span className="text-accent">Alessandro Lucas</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Eu sou especializado em criar experiências digitais elegantes e sou
-              proficiente em várias linguagens de programação e tecnologias
+            Como iniciante na área de desenvolvimento, estou focado em construir e aprimorar experiências digitais elegantes. 
+            Tenho conhecimento em algumas tecnologias, e estou sempre expandindo minhas habilidades 
+            para oferecer soluções criativas e funcionais em projetos reais.
             </p>
 
             {/* botão e sociais */}
